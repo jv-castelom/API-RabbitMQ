@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT_API_MS_Rabbit", "AT_API_MS_Rabbit\AT_API_MS_Rabbit.csproj", "{D453AA4B-FD40-4049-BE01-8B68882C6CA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{390B8E0B-466E-4030-BD28-9CF543DC0364}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D453AA4B-FD40-4049-BE01-8B68882C6CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D453AA4B-FD40-4049-BE01-8B68882C6CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D453AA4B-FD40-4049-BE01-8B68882C6CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D453AA4B-FD40-4049-BE01-8B68882C6CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D453AA4B-FD40-4049-BE01-8B68882C6CA8} = {390B8E0B-466E-4030-BD28-9CF543DC0364}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89417F16-2B09-41DE-BC21-4CC54BFC84A3}
+	EndGlobalSection
+EndGlobal
