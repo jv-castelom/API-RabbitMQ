@@ -26,6 +26,15 @@ namespace AT_API_MS_Rabbit
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("AT_API",
+                    new Microsoft.OpenApi.Models.OpenApiInfo()
+                    {
+                        Title = "AT_API",
+                        Version = "1.0"
+                    });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +50,13 @@ namespace AT_API_MS_Rabbit
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger()
+                .UseSwaggerUI(options =>
+                {
+                    options.SwaggerEndpoint("/swagger/AT_API/swagger.json", "AT_API");
+                    options.RoutePrefix = "";
+                });
 
             app.UseEndpoints(endpoints =>
             {

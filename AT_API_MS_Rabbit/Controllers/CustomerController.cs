@@ -9,6 +9,8 @@ using Shared.Requests.Customers;
 
 namespace AT_API_MS_Rabbit.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class CustomerController : Controller
     {
         [HttpPost]
