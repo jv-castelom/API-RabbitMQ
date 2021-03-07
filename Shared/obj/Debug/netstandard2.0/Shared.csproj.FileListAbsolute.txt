@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\AT_API_MS_Rabbit\Shared\bin\Debug\netstandard2.0\Shared.deps.json
+C:\Users\User\source\repos\AT_API_MS_Rabbit\Shared\bin\Debug\netstandard2.0\Shared.dll
+C:\Users\User\source\repos\AT_API_MS_Rabbit\Shared\obj\Debug\netstandard2.0\Shared.csprojAssemblyReference.cache
+C:\Users\User\source\repos\AT_API_MS_Rabbit\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\AT_API_MS_Rabbit\Shared\obj\Debug\netstandard2.0\Shared.AssemblyInfo.cs
