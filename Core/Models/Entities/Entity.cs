@@ -9,7 +9,7 @@ namespace Core.Models.Entities
     public class Entity
     {
         [BsonRepresentation(BsonType.ObjectId)]
-        public long Id { get; set; }
+        public string Id { get; set; }
         public DateTimeOffset CreateDate { get; set; }
     }
 }
