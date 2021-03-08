@@ -32,7 +32,7 @@ namespace AT_API_MS_Rabbit.Controllers
 
             var connection = new MongoAcess();
             await connection.Customers.InsertOneAsync(customer);
-            return View();
+            return Ok();
         }
     }
 }
